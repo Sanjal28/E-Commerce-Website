@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeless Threads</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <!-- -------font awesome--------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- ----navbar---- -->
+    <nav class="navbar">
+        <h1>Timeless Threads</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle">
+            <i class="fa-solid fa-bars" onclick="shownavbar()" style="cursor: pointer;"></i>
+        </div>
+    </nav>
+    <!-- --------side navbar for small screen------------ -->
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark" onclick="closenavbar()" style="cursor: pointer;"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="">Home</a></p>
+            <p class="side-navbar-link"><a href="">Collections</a></p>
+            <p class="side-navbar-link"><a href="">Contact</a></p>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-items">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="contact-input" placeholder="Your Name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="contact-input" placeholder="Your Email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" class="contact-input" placeholder="Your Message" required></textarea>
+            
+            <button type="submit" class="contact-submit">Send Message</button>
+        </form>
+    </div>
+    
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2>Timeless Threads</h2>
+                <p>Discover the elegance of the past with Timeless Threads. Our collection features classic and vintage-inspired apparel that transcends trends, offering a refined selection of clothing for those who appreciate timeless style. From elegant dresses to tailored suits, each piece is crafted with attention to detail, ensuring you look and feel your best on any occasion. Embrace the enduring beauty of fashion with Timeless Threads.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>Timelessthreads@gmail.com</p>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
